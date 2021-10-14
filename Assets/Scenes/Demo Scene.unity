@@ -1143,6 +1143,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1071632404}
+    - target: {fileID: 7820094699382347288, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 170682200}
     - target: {fileID: 7820094699382347289, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1157,7 +1161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820094699382347289, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 92.66
+      value: 92.77
       objectReference: {fileID: 0}
     - target: {fileID: 7820094699382347289, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1193,6 +1197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
+--- !u!1 &170682200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1384330037430528152, guid: 91e7eb6908dcdb44d86c30635526da7b, type: 3}
+  m_PrefabInstance: {fileID: 170682199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &171766632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10516,7 +10525,7 @@ GameObject:
   - component: {fileID: 1112195752}
   - component: {fileID: 1112195751}
   m_Layer: 3
-  m_Name: Ground 3 (1)
+  m_Name: Ground 4
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
