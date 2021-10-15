@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8460754848436419020}
   - component: {fileID: 2114403521773536783}
   - component: {fileID: 5472691402848112254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 5827540399168621550}
   - component: {fileID: 5718817102489716819}
   - component: {fileID: 5012232616314242086}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Railing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,7 +1570,7 @@ GameObject:
   - component: {fileID: 6037872367702205455}
   - component: {fileID: 838504171829333664}
   - component: {fileID: 971333737980951135}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
