@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Demo Scene.unity
+    guid: 3d331149e096d9a4aa24684c4b47ffb4
+  - enabled: 0
     path: Assets/TTS_Emma/Scenes/Emma DEMO.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
