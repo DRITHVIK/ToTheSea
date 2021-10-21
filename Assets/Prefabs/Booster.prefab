@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4565644136763698638}
   - component: {fileID: 4565644136763698639}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spring Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 4565644137595493195}
   - component: {fileID: 4565644137595493194}
   - component: {fileID: 4565644137595493205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Booster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4565644137854079022}
   - component: {fileID: 4565644137854079023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spring Trigger
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 4565644138177640588}
   - component: {fileID: 4565644138177640578}
   - component: {fileID: 4565644138177640589}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
