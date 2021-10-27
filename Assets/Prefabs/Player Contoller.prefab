@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 6941610214274108636}
   - component: {fileID: 6941610214274108627}
   - component: {fileID: 6941610214274108626}
+  - component: {fileID: 1071632406}
   m_Layer: 6
   m_Name: Player Contoller
   m_TagString: Player
@@ -486,7 +487,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6941610214274108624}
-  m_LocalRotation: {x: -0, y: -0.7071043, z: -0, w: 0.7071093}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 5.42, y: 3.31, z: -0.55}
   m_LocalScale: {x: 1, y: 0.8125, z: 1}
   m_Children:
@@ -529,7 +530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"groundcheck","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"unshelledModel","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"shelledModel","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Raycast
-      Origin","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ShellCollider","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UnshelledCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerHealthUI","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SlopeDetect","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Shell(TurtleMode)","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Shell(ShellMode)","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Origin","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ShellCollider","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UnshelledCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerHealthUI","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SlopeDetect","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Shell(TurtleMode)","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Shell(ShellMode)","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"InputDebug","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6941610214417005649}
     - {fileID: 6941610214190726858}
@@ -541,6 +542,7 @@ MonoBehaviour:
     - {fileID: 6941610214672295034}
     - {fileID: 6941610214196238458}
     - {fileID: 6941610215035717122}
+    - {fileID: 0}
 --- !u!114 &6941610214274108626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,6 +551,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6941610214274108624}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 81dde2b23a571b34aa91efba824125f7, type: 2}
+--- !u!114 &1071632406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6941610214274108624}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
