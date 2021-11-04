@@ -44712,6 +44712,14 @@ PrefabInstance:
       value: CoinManager
       objectReference: {fileID: 0}
     - target: {fileID: 794731697654746879, guid: 13a801ab610a4e742bf59e02944dff66, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 794731697654746879, guid: 13a801ab610a4e742bf59e02944dff66, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 794731697654746879, guid: 13a801ab610a4e742bf59e02944dff66, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 631944247}
