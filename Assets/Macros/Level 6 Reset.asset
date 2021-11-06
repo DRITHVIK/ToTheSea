@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Level 6 Reset
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-12.77022,"y":46.85439},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"ToTheSea
+      - Level 6","$type":"System.String"}},"position":{"x":-57.0,"y":-117.0},"guid":"6741da4d-530a-4b15-83ec-562a79ec74d7","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{"key":{"$content":"R","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-277.0,"y":-117.0},"guid":"e0270662-0722-445f-8050-4c67be0e5582","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"12"},{"coroutine":false,"defaultValues":{"key":{"$content":"Escape","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-139.0,"y":33.0},"guid":"f5f5d9e5-471d-4f0c-973e-513478931a13","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"14"},{"chainable":false,"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":101.0,"y":33.0},"guid":"0d339c4a-d7c5-4299-abbb-fc3a17aea69b","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"4cdddf26-9266-4ef3-a32b-e4fdd95eb2cf","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"15db4d08-df66-4542-827a-dfab0dadfd64","$type":"Bolt.ControlConnection"},{"position":{"xMin":-380.0,"yMin":-188.0,"xMax":379.0,"yMax":189.0},"label":"Scene
+      Reset","comment":null,"color":{"r":0.8584906,"g":0.125534,"b":0.125534,"a":1.0},"guid":"9b07c4d4-b1c5-49a8-88d3-d7b2f261db5a","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
