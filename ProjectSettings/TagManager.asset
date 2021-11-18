@@ -8,6 +8,7 @@ TagManager:
   - ground
   - Slide
   - killzone
+  - WaterStream
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - player
   - CrabNavmeshBake
-  - 
+  - HealthPickUp
   - 
   - 
   - 
