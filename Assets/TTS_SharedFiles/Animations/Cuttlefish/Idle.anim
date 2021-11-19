@@ -190,7 +190,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "head/heead/\u5634"
+    path: head/heead/mous
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1937,7 +1937,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "head/heead/\u5634"
+    path: head/heead/mous
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2890,7 +2890,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: "head/heead/\u5634"
+    path: head/heead/mous
   - curve:
       serializedVersion: 2
       m_Curve:
