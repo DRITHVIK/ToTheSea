@@ -9,6 +9,7 @@ TagManager:
   - Slide
   - killzone
   - WaterStream
+  - LevelSelect
   layers:
   - Default
   - TransparentFX
