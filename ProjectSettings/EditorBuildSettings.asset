@@ -9,12 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Scene.unity
     guid: 3d331149e096d9a4aa24684c4b47ffb4
   - enabled: 0
-    path: Assets/TTS_Emma/Scenes/Emma DEMO.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
     path: 
-    guid: 201598f3a270bb94f9b3b4858af8cc69
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/TTS_UI_LevelSelect/LevelSelect.unity
+    guid: 75f23045d2abc1e48a29dd30f28c9b09
   - enabled: 1
     path: Assets/TTS_Emma/Scenes/ToTheSea - Level 1.unity
     guid: 3eb7462d74d59254f958525266c768e3
+  - enabled: 1
+    path: Assets/TTS_Junhao/Scenes/ToTheSea - Level 2.unity
+    guid: 43eafc3eec34dda48ac0d715d44d0611
+  - enabled: 1
+    path: Assets/TTS_Kyle/Scenes/ToTheSea - Level 3.unity
+    guid: bdc86efe60e51d54a85d9a55bc60f642
+  - enabled: 1
+    path: Assets/TTS_Zoe/Scenes/ToTheSea - Level 4.unity
+    guid: 4a770a00e9aebf048a7b4e0aed055aac
+  - enabled: 1
+    path: Assets/TTS_Marcio/Scenes/ToTheSea- Scene Lv5.unity
+    guid: 2f8e96b1fcec6b949a83c37fae6db7b6
+  - enabled: 1
+    path: Assets/TTS_Rithvik/Scenes/ToTheSea - Level 6.unity
+    guid: 6fcfb728aa01f684b894bf7d79ce29c6
   m_configObjects: {}
