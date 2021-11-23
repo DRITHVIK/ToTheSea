@@ -42,6 +42,7 @@ Material:
     m_Floats:
     - _Depth: -3.69
     - _Displacement: -0.5
+    - _FoamOffset: -71.67
     - _NormalStrength: 0.47
     - _Smoothness: 1
     - _Strength: 0.08
