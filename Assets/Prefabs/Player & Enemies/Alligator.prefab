@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Enemy","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AlligatorAttackPoint","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Alligator
-      Mesh","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fired","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Mesh","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fired","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isHiding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7521717433299834631}
     - {fileID: 0}
