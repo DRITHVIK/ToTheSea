@@ -262,8 +262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"springForceUnshelled","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"Spring
-      Trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"springForceshelled","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"springForceUnshelled","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Spring
+      Trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"springForceshelled","value":{"$content":20,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7823550713114743392}
 --- !u!114 &4802806376741331297
