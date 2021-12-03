@@ -210,7 +210,6 @@ GameObject:
   - component: {fileID: 1151672502815040360}
   - component: {fileID: 1151672502815040367}
   - component: {fileID: 1151672502815040363}
-  - component: {fileID: 1151672502815040362}
   m_Layer: 5
   m_Name: ResetButton
   m_TagString: Untagged
@@ -334,22 +333,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1151672502815040362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151672502815040365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 0a9b94819a8b93348b6eda0e05b9a85d, type: 2}
 --- !u!1 &1151672502985726933
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +346,6 @@ GameObject:
   - component: {fileID: 1151672502985726930}
   - component: {fileID: 1151672502985726929}
   - component: {fileID: 1151672502985726928}
-  - component: {fileID: 1151672502985726935}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -487,22 +469,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1151672502985726935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151672502985726933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 0a9b94819a8b93348b6eda0e05b9a85d, type: 2}
 --- !u!1 &1151672503167693192
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +767,6 @@ GameObject:
   - component: {fileID: 1151672503734231308}
   - component: {fileID: 1151672503734231299}
   - component: {fileID: 1151672503734231298}
-  - component: {fileID: 1151672503734231297}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -925,22 +890,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1151672503734231297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151672503734231303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 0a9b94819a8b93348b6eda0e05b9a85d, type: 2}
 --- !u!1 &1151672503944365328
 GameObject:
   m_ObjectHideFlags: 0
