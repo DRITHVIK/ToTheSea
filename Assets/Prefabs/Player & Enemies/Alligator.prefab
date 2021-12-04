@@ -287,13 +287,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Enemy","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AlligatorAttackPoint","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Alligator
-      Mesh","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fired","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isHiding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"AlliagtorCollider","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Mesh","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Fired","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isHiding","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"AlliagtorCollider","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Smoke","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7521717433299834631}
     - {fileID: 0}
     - {fileID: 7521717432767099446}
     - {fileID: 919132149353056999}
     - {fileID: 8668872916074473945}
+    - {fileID: 8876715261833079487}
 --- !u!114 &7521717433299834625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,9 +494,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmokeCloudEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 6457944836881523912, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: 0.86
       objectReference: {fileID: 0}
     - target: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -543,6 +560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+--- !u!1 &8876715261833079487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6457944836881523912, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
+  m_PrefabInstance: {fileID: 2499312950628404855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8876715261833079486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6457944836881523913, guid: 8924b5258c7ad844ba15a3a70a07cdd3, type: 3}
