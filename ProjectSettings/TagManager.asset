@@ -10,6 +10,7 @@ TagManager:
   - killzone
   - WaterStream
   - LevelSelect
+  - Lillypad
   layers:
   - Default
   - TransparentFX
