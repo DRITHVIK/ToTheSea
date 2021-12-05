@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 99738491}
   - component: {fileID: 99738490}
   m_Layer: 3
-  m_Name: Groudn
+  m_Name: Ground
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1675,6 +1675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8549223502270865874, guid: 32bc8643e4aecb64898a54f7a11f722f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bc8643e4aecb64898a54f7a11f722f, type: 3}
 --- !u!1 &1366696473 stripped
@@ -1697,7 +1701,7 @@ GameObject:
   - component: {fileID: 1429932553}
   - component: {fileID: 1429932552}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: LevelSuccess_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
