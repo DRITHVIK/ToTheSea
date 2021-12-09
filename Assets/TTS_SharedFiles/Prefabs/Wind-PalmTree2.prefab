@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2520764182511036927}
   - component: {fileID: 369148809693486389}
   - component: {fileID: 3278091751158863510}
-  - component: {fileID: 5885402131902218498}
+  - component: {fileID: 1564631589779873635}
   m_Layer: 0
   m_Name: Wind-PalmTree2
   m_TagString: Untagged
@@ -94,14 +94,14 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 2.8130002, y: 1.8000001, z: 2.8130002}
+  m_Extents: {x: 0.99, y: 0.95, z: 0.99}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0.132, y: 0.21700001, z: 2.493}
+  m_Center: {x: -0.14, y: -0.01, z: 0.74}
   m_TimeToStationary: 0.5
---- !u!136 &5885402131902218498
-CapsuleCollider:
+--- !u!64 &1564631589779873635
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -110,7 +110,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.46687376
-  m_Height: 4.797314
-  m_Direction: 2
-  m_Center: {x: -0.051743984, y: -0.0033600926, z: 1.9934237}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7450741763379908841, guid: 62f6609278d95454095eda5eaa23242f, type: 3}
