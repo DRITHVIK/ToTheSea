@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FrogExplosionSoundEffect
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-29.41171,"y":22.35295},"zoom":0.85,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-485.0,"y":-144.0},"guid":"e42f7ecf-57e2-4e95-8bf2-1ee9889f59cc","$version":"A","$type":"Bolt.Start","$id":"9"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null},"position":{"x":-237.0,"y":-140.0},"guid":"37d06ad3-66e3-45f8-b4a9-004c699e798d","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"type":"UnityEngine.AudioClip","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-479.0,"y":21.0},"guid":"892dfa92-1b8d-4894-9ea3-d58336773c05","$version":"A","$type":"Bolt.Literal","$id":"14"},{"defaultValues":{"duration":{"$content":1.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-7.0,"y":-142.0},"guid":"2de9091b-937e-4ab9-b375-4d28514a6508","$version":"A","$type":"Bolt.Timer","$id":"16"},{"member":{"name":"length","parameterTypes":null,"targetType":"UnityEngine.AudioClip","targetTypeName":"UnityEngine.AudioClip","$version":"A"},"defaultValues":{"target":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":-242.0,"y":66.0},"guid":"93d7a81b-c32a-4aa4-8cf0-46f0f0209f10","$version":"A","$type":"Bolt.GetMember","$id":"18"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":366.0,"y":-116.0},"guid":"511f7da9-3420-4e1f-b8de-b5756660d350","$version":"A","$type":"Bolt.InvokeMember","$id":"21"},{"defaultValues":{},"position":{"x":253.0,"y":-14.0},"guid":"d327faff-1419-447b-9e46-28f85c66a15c","$version":"A","$type":"Bolt.Self","$id":"24"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"0c1e486a-4040-421f-a96a-6b32c07d8836","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"start","guid":"b616f32d-5a18-4294-b8ad-18a2607172b5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"completed","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"41ecb33f-1393-42ed-8c70-a58f611a57ec","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%clip","guid":"78a98e40-f808-4411-83e8-947f4a016cf3","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"duration","guid":"0ea1d7cb-12c6-4694-b178-0b77ae636b09","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"self","destinationUnit":{"$ref":"21"},"destinationKey":"%obj","guid":"e9e47632-08ae-4493-8a83-9d8abd93ae6d","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: a1ea9d63b62415742bc02fcb6739215d, type: 3}
+    - {fileID: 8300000, guid: a1ea9d63b62415742bc02fcb6739215d, type: 3}
