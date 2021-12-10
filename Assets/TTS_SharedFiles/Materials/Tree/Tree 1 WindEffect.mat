@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree 1 WindEffect
+  m_Shader: {fileID: -6465566751694194690, guid: 7e3a5c39ac915f342bfc3f74d4d398e6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_8462d910c0524bf084875f921a11fa3a:
+        m_Texture: {fileID: 2800000, guid: 0af1b145f2531414b8ef850c1b0c5426, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMainTex:
+        m_Texture: {fileID: 2800000, guid: 9762af828ca83cf489f11c112bd23a70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMainTex:
+        m_Texture: {fileID: 2800000, guid: 0af1b145f2531414b8ef850c1b0c5426, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Bend_Strength: 2
+    - _Scale: 0.1
+    - _Speed: 0.2
+    - _WindIntensity: 1
+    m_Colors:
+    - Vector2_f3f7644dedef42368916f1cf78bcc205: {r: 0.12, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

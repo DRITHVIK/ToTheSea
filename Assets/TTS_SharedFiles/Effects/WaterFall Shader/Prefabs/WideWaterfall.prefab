@@ -58422,6 +58422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1743165646084991738}
     m_Modifications:
+    - target: {fileID: 2009785797590392236, guid: 92b323d2d8bffdd4aa02062eb9423978, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2009785797590392238, guid: 92b323d2d8bffdd4aa02062eb9423978, type: 3}
       propertyPath: m_Name
       value: Waterfall Sounds

@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 4561666144773960908}
   - component: {fileID: 2556774535548739038}
   - component: {fileID: 1397725043015090997}
+  - component: {fileID: 404689054944925545}
   m_Layer: 0
   m_Name: Plane002
   m_TagString: Untagged
@@ -243,6 +244,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &404689054944925545
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442997878319229368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2783131832183395012, guid: b39186cb096bb324fa3edc26128207b2, type: 3}
 --- !u!1 &666989805112005756
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,9 +834,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7760206062290878891}
-  - component: {fileID: 847038737630612344}
-  - component: {fileID: 6568564783464256392}
-  - component: {fileID: 785319845}
+  - component: {fileID: 8974404545257273680}
+  - component: {fileID: 5987160932039678844}
   m_Layer: 0
   m_Name: Wind-PlamTree_1
   m_TagString: Untagged
@@ -856,8 +870,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &847038737630612344
-BoxCollider:
+--- !u!64 &8974404545257273680
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -866,23 +880,11 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.679814, y: 1.7744837, z: 0.6888981}
-  m_Center: {x: -0.5683577, y: 0.9911878, z: 2.982544}
---- !u!65 &6568564783464256392
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7729364139383637686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3292601, y: 2.1194463, z: 0.48423958}
-  m_Center: {x: -0.8139318, y: 3.172722, z: 2.6940775}
---- !u!208 &785319845
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!208 &5987160932039678844
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -894,9 +896,9 @@ NavMeshObstacle:
   m_Shape: 0
   m_Extents: {x: 0.5, y: 1, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.62, y: 0.97, z: 3.05}
+  m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
 --- !u!1 &8496442456443263986
 GameObject:
