@@ -123,6 +123,86 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1318401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318402}
+  - component: {fileID: 1318403}
+  m_Layer: 0
+  m_Name: C_Fade out
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318401}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -628, y: -508, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1839015438}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 1839015438}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 1.15
+      inSlope: 0.013702101
+      outSlope: 0.013702101
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4339597
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  animTime: 0.55
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1 &8260892
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +418,86 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &51799833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51799834}
+  - component: {fileID: 51799835}
+  m_Layer: 0
+  m_Name: C_Loop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51799834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51799833}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -628, y: -508, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1839015438}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &51799835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51799833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 1839015438}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 1.15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  animTime: 0.7
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1 &97567913 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8532160191644763368, guid: 22a40957a26495641a182af2653bda14, type: 3}
@@ -763,6 +923,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320413446}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &351358075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 351358076}
+  - component: {fileID: 351358077}
+  m_Layer: 0
+  m_Name: C_Fade in
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &351358076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351358075}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -628, y: -508, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1839015438}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &351358077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351358075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 1839015438}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8
+      value: 1.15
+      inSlope: 0.013702101
+      outSlope: 0.013702101
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4339597
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  animTime: 0.55
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1 &363101583
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +1124,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2556
+  m_Name: pb_Mesh-294532
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1129,7 +1369,6 @@ GameObject:
   - component: {fileID: 475380867}
   - component: {fileID: 475380869}
   - component: {fileID: 475380868}
-  - component: {fileID: 475380870}
   m_Layer: 5
   m_Name: Settings_Star
   m_TagString: Untagged
@@ -1147,7 +1386,10 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2132581661}
+  - {fileID: 1797834445}
+  - {fileID: 1298154736}
   m_Father: {fileID: 1402358476}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1194,25 +1436,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475380866}
   m_CullTransparentMesh: 1
---- !u!95 &475380870
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475380866}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 769b26976a1fb9e46a8362b9f97af105, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &480414811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +2065,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 566957405}
-  - {fileID: 1337899211}
   - {fileID: 935918475}
   - {fileID: 1645194507}
   - {fileID: 1402358476}
@@ -2469,7 +2691,7 @@ RectTransform:
   - {fileID: 1601204475}
   - {fileID: 298173956}
   m_Father: {fileID: 592051738}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2507,7 +2729,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 592051738}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2948,7 +3170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level_1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_1.1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_1_Outline","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2.1","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2_Outline","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3.1","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3_Outline","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4,1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4_Outline","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5.1","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5_Outline","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6.1","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6_Outline","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FadeOut_Canvas","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FadeOut","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Back_Mesh","value":{"$content":20,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Back_Button","value":{"$content":21,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Setting_Mesh","value":{"$content":22,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Setting_Button","value":{"$content":23,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Credit_Mesh","value":{"$content":24,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Credit_Button","value":{"$content":25,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Info_Mesh","value":{"$content":26,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Info_Button","value":{"$content":27,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Quit_Mesh","value":{"$content":28,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Quit_Button","value":{"$content":29,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"QuitMenu","value":{"$content":30,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Q_Text","value":{"$content":31,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_Mesh","value":{"$content":32,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_Button","value":{"$content":33,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_BG","value":{"$content":34,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_Mesh","value":{"$content":35,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_Button","value":{"$content":36,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_BG","value":{"$content":37,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SelectMacro","value":{"$content":38,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Buttons_All","value":{"$content":39,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Buttons_All_Mesh","value":{"$content":40,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"QuitButtons","value":{"$content":41,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Setting_Menu","value":{"$content":42,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Setting_Button","value":{"$content":43,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_BG","value":{"$content":44,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Exit","value":{"$content":45,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Exit_Button","value":{"$content":46,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Carrot_Button","value":{"$content":47,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Star_Button","value":{"$content":48,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Carrot_Mesh","value":{"$content":49,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Star_Mesh","value":{"$content":50,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level_1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_1.1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_1_Outline","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2.1","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_2_Outline","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3.1","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_3_Outline","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4,1","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_4_Outline","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5.1","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_5_Outline","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6.1","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Level_6_Outline","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FadeOut_Canvas","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FadeOut","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Back_Mesh","value":{"$content":20,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Back_Button","value":{"$content":21,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Setting_Mesh","value":{"$content":22,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Setting_Button","value":{"$content":23,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Credit_Mesh","value":{"$content":24,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Credit_Button","value":{"$content":25,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Info_Mesh","value":{"$content":26,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Info_Button","value":{"$content":27,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Quit_Mesh","value":{"$content":28,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Quit_Button","value":{"$content":29,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"QuitMenu","value":{"$content":30,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Q_Text","value":{"$content":31,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_Mesh","value":{"$content":32,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_Button","value":{"$content":33,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Yes_BG","value":{"$content":34,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_Mesh","value":{"$content":35,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_Button","value":{"$content":36,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"No_BG","value":{"$content":37,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SelectMacro","value":{"$content":38,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Buttons_All","value":{"$content":39,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Buttons_All_Mesh","value":{"$content":40,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"QuitButtons","value":{"$content":41,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Setting_Menu","value":{"$content":42,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Setting_Button","value":{"$content":43,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_BG","value":{"$content":44,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Exit","value":{"$content":45,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SCI_Exit_Button","value":{"$content":46,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Carrot_Button","value":{"$content":47,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Star_Button","value":{"$content":48,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Carrot_Mesh","value":{"$content":49,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Star_Mesh","value":{"$content":50,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StarFadeIN","value":{"$content":51,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StarLoop","value":{"$content":52,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StarFadeOUT","value":{"$content":53,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CarrotLoop","value":{"$content":54,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CarrotFadeIN","value":{"$content":55,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CarrotFadeOUT","value":{"$content":56,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 366461105}
     - {fileID: 2091237567}
@@ -3001,6 +3223,12 @@ MonoBehaviour:
     - {fileID: 2094899814}
     - {fileID: 1839015437}
     - {fileID: 475380866}
+    - {fileID: 2132581660}
+    - {fileID: 1797834444}
+    - {fileID: 1298154735}
+    - {fileID: 51799833}
+    - {fileID: 351358075}
+    - {fileID: 1318401}
 --- !u!4 &1119002335
 Transform:
   m_ObjectHideFlags: 0
@@ -3709,6 +3937,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283192925}
   m_CullTransparentMesh: 1
+--- !u!1 &1298154735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298154736}
+  - component: {fileID: 1298154737}
+  m_Layer: 0
+  m_Name: S_Fade Out
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298154736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298154735}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475380867}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298154737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298154735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 475380867}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 1.15
+      inSlope: 0.013702101
+      outSlope: 0.013702101
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4339597
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  animTime: 0.55
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1 &1313385632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4056,8 +4364,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 592051738}
-  m_RootOrder: 1
+  m_Father: {fileID: 1402358476}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4391,8 +4699,9 @@ RectTransform:
   - {fileID: 475380867}
   - {fileID: 1839015438}
   - {fileID: 1330015216}
+  - {fileID: 1337899211}
   m_Father: {fileID: 592051738}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5140,7 +5449,7 @@ RectTransform:
   - {fileID: 2039214822}
   - {fileID: 1644949915}
   m_Father: {fileID: 592051738}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5358,6 +5667,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1797834444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797834445}
+  - component: {fileID: 1797834446}
+  m_Layer: 0
+  m_Name: S_Loop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1797834445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797834444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475380867}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1797834446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797834444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 475380867}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 1.15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  animTime: 0.7
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1 &1839015437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,7 +5758,6 @@ GameObject:
   - component: {fileID: 1839015438}
   - component: {fileID: 1839015440}
   - component: {fileID: 1839015439}
-  - component: {fileID: 1839015441}
   m_Layer: 5
   m_Name: Settings_Carrot
   m_TagString: Untagged
@@ -5387,7 +5775,10 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 351358076}
+  - {fileID: 51799834}
+  - {fileID: 1318402}
   m_Father: {fileID: 1402358476}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5434,25 +5825,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839015437}
   m_CullTransparentMesh: 1
---- !u!95 &1839015441
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839015437}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 01a5b6cf8ff431a4f93bd223c4881ee0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1889942457
 GameObject:
   m_ObjectHideFlags: 0
@@ -6441,6 +6813,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2132581660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132581661}
+  - component: {fileID: 2132581662}
+  m_Layer: 0
+  m_Name: 'S_Fade in '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2132581661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132581660}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475380867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2132581662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132581660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe8a33be1c1caf4998f6fd37294791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 475380867}
+  scaleCurveLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8
+      value: 1.15
+      inSlope: 0.013702101
+      outSlope: 0.013702101
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4339597
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  animTime: 0.55
+  playOnEnable: 0
+  loopOnEnable: 0
 --- !u!1001 &8532160191555682369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6458,7 +6910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8532160191800317322, guid: 22a40957a26495641a182af2653bda14, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8532160191800317326, guid: 22a40957a26495641a182af2653bda14, type: 3}
       propertyPath: m_Pivot.x
