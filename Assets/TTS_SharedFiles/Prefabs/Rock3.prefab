@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1776681969552553638}
   - component: {fileID: 3388907333735840003}
   - component: {fileID: 640397397047545289}
-  m_Layer: 0
+  - component: {fileID: 3285746421732844920}
+  m_Layer: 3
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433229324235123740}
-  m_LocalRotation: {x: 0.8891227, y: -0, z: 0, w: -0.4576689}
+  m_LocalRotation: {x: -0.88912094, y: 0, z: 0, w: 0.4576723}
   m_LocalPosition: {x: -75.172, y: 3.08, z: -38.669}
-  m_LocalScale: {x: 0.020238223, y: 0.020238223, z: 0.020238223}
+  m_LocalScale: {x: 0.14265902, y: 0.14265902, z: 0.14265902}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -125.526, y: 0, z: 0}
 --- !u!33 &3388907333735840003
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -81,3 +82,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3285746421732844920
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433229324235123740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3983063591393173388, guid: 8e022958efb14684a90587fc9883175d, type: 3}
