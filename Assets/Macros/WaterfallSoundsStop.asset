@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: WaterfallSoundsStop
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-13.0,"y":97.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-242.0,"y":-54.0},"guid":"d88e6851-150b-49fe-b29b-8cb0df2d5510","$version":"A","$type":"Bolt.Update","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"LevelSucces
+      is True","$type":"System.String"}},"position":{"x":-433.0,"y":67.0},"guid":"5cf2344a-c970-4ebc-98fa-93660849ae22","$version":"A","$type":"Bolt.GetVariable","$id":"11"},{"defaultValues":{},"position":{"x":-6.0,"y":-60.0},"guid":"fbfad202-69f7-414c-95c0-43b645f6646d","$version":"A","$type":"Bolt.Branch","$id":"13"},{"numeric":false,"defaultValues":{},"position":{"x":-152.0,"y":69.0},"guid":"65ded9b6-2ba9-4264-8286-12ae0f989253","$version":"A","$type":"Bolt.Equal","$id":"15"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-351.0,"y":164.0},"guid":"b27c4a0e-5311-4a05-a6cb-d01657a55388","$version":"A","$type":"Bolt.Literal","$id":"17"},{"chainable":false,"member":{"name":"Stop","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":255.0,"y":-61.0},"guid":"c591cae3-c916-43f7-92b9-8b36b860f877","$version":"A","$type":"Bolt.InvokeMember","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"366c1bca-1aef-4029-8231-e5a6a797d42c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"3e7145f5-66fb-4fdd-8f9d-24e3748278dc","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"a","guid":"d3e07d2d-01c9-45c2-b629-7dbd2ed0ad29","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"b","guid":"828591f5-4efe-4d1c-97bd-b5796f4e457f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"equal","destinationUnit":{"$ref":"13"},"destinationKey":"condition","guid":"fefae8a1-1793-405b-aa73-66c3d69479c8","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
