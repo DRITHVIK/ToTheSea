@@ -2034,6 +2034,14 @@ PrefabInstance:
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8532160191800317324, guid: 22a40957a26495641a182af2653bda14, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532160191800317324, guid: 22a40957a26495641a182af2653bda14, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 8532160191800317326, guid: 22a40957a26495641a182af2653bda14, type: 3}
       propertyPath: m_Pivot.x
       value: 0
